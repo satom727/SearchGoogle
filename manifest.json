@@ -1,0 +1,11 @@
+{
+     "manifest_version": 2,
+     "name": "Context Search Extention",
+     "description": "選択したテキストを別タブで検索する拡張機能",
+     "version": "1.0",
+     "permissions": ["contextMenus", "tabs", "http://*/*", "https://*/*"],
+    "background": {
+        "scripts": ["bg.js"],
+        "persistent": false
+    }
+}
